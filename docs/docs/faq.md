@@ -1,6 +1,6 @@
 # FAQ 
-_Frequently Asked Questions_
 
+*This FAQ is pulled straight from the EmuTarkov Community Discord. It is recommended you join their Discord [here](https://discord.gg/NJANk5gCeN) for a more updated list.*
 
 ## Will this get me banned from Tarkov?
 As long as you’ve installed this separately from the live version and aren’t running BSG products to the side, until reported otherwise, this program should not cause any complications with your live account of Tarkov.

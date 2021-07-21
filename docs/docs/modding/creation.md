@@ -1,5 +1,7 @@
 # Creating Mods
 
+<span style="color: #419c59;">**NOTE:**</span> This page was made for JET versions 1.1.1 and prior. If you are using a newer version, the mod loader has been rewritten, and a new documentation has yet to be drafted for it.
+
 Mods should be placed in your `JET/Server/user/mods` directory. A mod folder usually follows this structure:
 
 ```
