@@ -26,7 +26,7 @@ Partnered communities:
 
 ## Other Links
 
-- [Multi Version & Language Item Search Engine](https://eft.justemutarkov.eu/)
+- [JET Panopticon Search Engine](https://eft.justemutarkov.eu/)
 - [Self-Hosted Git](https://git.justemutarkov.eu/) _(if you want access, open a ticket on the [JustEmuTarkov Discord](https://discord.gg/T66tGKa))_
 - [JET Download Center](https://justemutarkov.eu/download)
 
