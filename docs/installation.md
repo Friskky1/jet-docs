@@ -3,30 +3,35 @@
 > ***If you are having issues with the installation, review the FAQ at the bottom of this page.***
 
 ## Installation Video
-
-<video width="720" height="480" controls>
-  <source src="https://static.kiobu.dev/install.mp4">
-</video>
-
+  
+<video src="install.mp4" width="720" height="480" controls=""></video>  
+  
+[Video link](install.mp4)  
+  
 ## Requirements
 
-- Archive unpacker (7zip, WinRAR, etc.).
-- Server files (named **JET_X.X.X_Server.7z**), where **X.X.X** is the latest JET server release.
+- 7zip.
+- Server files that match your game client.
 - A supported Escape from Tarkov client version. These are available below.
 - Binary files that match your EFT client version (named **JET-Binaries-XXXX.7z**), where **XXXX** is your client version.
 
 ## Download Center
 
-To download the JET server and JET binaries, the archives are hosted on [mega.nz](https://mega.nz/folder/Fg1WCAbR#LVAylusBUPB0cJ6QQXI2QA).
+To download the JET server and JET binaries, the packs are hosted on [justemutarkov.eu](https://justemutarkov.eu/download).
 
-To download EFT clients supported by JET, you must download one of the below client archives:
+| Client version | Latest supported JET Server version |
+|----------------|-------------------------------------|
+| 12.8.*         | 1.0.3                               |
+| 12.9.*         | 1.1.0                               |
+| 12.10.*        | No build                            |
+| 12.11.*        | 1.2.X *(not released)*              |
 
-- [0.12.7.9018](https://maoci.eu/download?file=EFT0.12.7.9018) *(not recommended)*
-- [0.12.8.9506](https://maoci.eu/download?file=EFT0.12.8.9506)
-- [0.12.8.9767](https://maoci.eu/download?file=EFT0.12.8.9767) *(latest supported version)*
-    - [Alternate Mirror](https://drive.google.com/file/d/1sTOZ2AcO68pqbc9UjsZ94588ihCnB9Jp/view)
+As of February 2021 you will need to download links as:
+- Client 0.12.9.10988
+- Patch for game client 10988 (current)
+- Server JET 1.1.0 (current)
 
-Make sure the binaries you download from the download center match the client version you download.
+**NOTE:** Make sure the binaries you download from the download center match the client version you download.
 
 ## Installation Process
 
@@ -34,58 +39,79 @@ Make sure the binaries you download from the download center match the client ve
 
 ```
 JET/
-|
-|__Server/
-|
-|__Client/
+   |
+   | Server/
+   | Client/
 ```
 
-2. Extract your downloaded EFT **client files** to `JET/Client`.
+2. Extract your downloaded EFT **client files** to `JET/Client`. This is the folder that will host your game files, such as `EscapeFromTarkov.exe`. We will call this the **client folder**.
 
-3. Extract your downloaded JET **server files** to `JET/Server`.
+3. Extract your downloaded JET **server files** to `JET/Server`. This is the folder that will host your JET server files, such as `Server.exe` and the `db` folder. We will call this the **server folder**.
 
-4. Extract your downloaded JET **client binaries** to `JET/Client`. You should get a message asking if you want to overwrite existing files, select **Yes.** Your directories should now look similar to the following:
+4. Extract your downloaded JET **client binaries** to `JET/Client` using **7zip**. The binaries should have files such as `JET Launcher.exe` and an `EscapeFromTarkov_Data` folder, which will overwrite the existing files in your client's `EscapeFromTarkov_Data` folder. When moving your binaries to the `JET/Client` folder, you should get a message asking if you want to overwrite existing files, select **Yes.** Your directories should now look similar to the following:
 
 ```
 JET/
-|
-|__Server/
-|  |__Server.exe
-|  |__db/
-|  |__res/
-|  |__src/
-|  |__user/
-|
-|__Client/
-|  |__ ...
-|  |__EscapeFromTarkov.exe
-|  |__JET Launcher.exe
-|  |__launcher.config.json
-|  |__EscapeFromTarkov_Data/
-|     |__Managed/
-|        |__ ...
-|        |__NLog.JET.dll
-|        |__0Harmony.dll
-|        |__Assembly-CSharp.dll
-|        |__NLog.dll.nlog
+   |
+   | Server/
+   |  | Server.exe
+   |  | db/
+   |  | res/
+   |  | src/
+   |  | user/
+   |
+   | Client/
+   |  | ...
+   |  | EscapeFromTarkov.exe
+   |  | JET Launcher.exe
+   |  | launcher.config.json
+   |  | EscapeFromTarkov_Data/
+   |     | Managed/
+   |        | ...
+   |        | NLog.JET.dll
+   |        | 0Harmony.dll
+   |        | Assembly-CSharp.dll
+   |        | NLog.dll.nlog
 ```
 
-5. You are ready to begin playing. Launch `JET/Server/Server.exe`. You should see the server print: `Server is working at: https://127.0.0.1:443`
+5. You are ready to begin playing. Launch `JET/Client/JET Launcher.exe`.
+    - **NOTE:** If you are using JET 1.0.3 or older, you will need to open the server and the launcher separately. That means you need to launch `JET/Server/Server.exe` first, and then `JET/Client/JET Launcher.exe`.
 
-6. Launch `JET/Client/JET Launcher.exe`. 
-    - Make sure the server is running before you start the launcher.
+6. Press the **Start Server** button.
 
-7. If the server box says `JustEmuTarkov`, then hit **Connect** and you will be connected to your JET server.
-
-8. To login, you can use the pre-created account with the username *Maoci* and the password *123*, or you can create your own by selecting **Create Profile**.
+7. To login, you can use the pre-created account with the username *Maoci* and the password *123* (this option can be removed later), or you can create your own by pressing the **+** button.
     - The e-mail and password do not need to be legitimate. You can enter whatever text you want into the boxes, as long as you remember them.
 
-9. After choosing what version you want and registering, login to your new account. 
+8. After choosing what version you want and registering the account, login to your new account. 
 
-10. Press **Start Game**, and you should now be launching JET's EFT.
+9. Press **Start Game**, and you should now be launching JET's EFT.
+
+Addendum. So, to summarize:
+
+- Extract your game files to the *client folder*.
+- Extract your server files to the *server folder*.
+- Extract your binaries to the *client folder*, and overwrite when asked.
+
+It's really quite simple.
 
 ## Install FAQ
 
 **Q:** *I am getting an NLog related error and it's preventing me from running the JET Launcher!*
 
 - **A:** *Go to your `JET/Client/EscapeFromTarkov_Data/Managed/` folder. Now, look for all files related to NLog and go to their properties. At the bottom, you should see an checkbox labeled* **Unblock***. Unblock all NLog files. If this does not work, reinstall your client binaries.*
+
+**Q:** *I am getting a 0Harmony.dll missing error!*
+
+- **A:** *Reinstall your binaries, using 7zip.*
+
+**Q:** *My game is stuck loading when I start!*
+
+- **A:** *Reinstall your binaries, using 7zip.*
+
+**Q:** *My server keeps shutting itself down!*
+
+- **A:** *Disable your antivirus, or set an exception for Server.exe and JET Launcher.exe in its exclusion properties.*
+
+**Q:** *I'm seriously a brainlet and can't figure this shit out!*
+
+- **A:** *Feel free to ask in the support channels/support tickets of any of our affiliated Discord servers. Links to these are [here.](index.md)*
