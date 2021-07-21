@@ -2,7 +2,7 @@
 
 ## Manually mark a quest as complete
 
-1. Find the quest ID for the quest you want to change from the [quests directory](../ressources/quests/).
+1. Find the quest ID for the quest you want to change from the [quests directory](../resources/quests/).
 2. Open the `JET/Server/user/profiles/{AID}/character.json` file with a decent text editor. 
 3. Search the file for your quest ID.
 4. Look for your quest's `status` property. It will usually say `"status": "Success"` or `"status": "Started"`.

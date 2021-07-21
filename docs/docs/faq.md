@@ -63,7 +63,7 @@ Experiment with these values as you wish, lowering skillFatiguePerPoint, increas
 
 ## How do I skip a quest?
 A tutorial can be found here: [docs.justemutarkov.eu/character/character_edits/](https://docs.justemutarkov.eu/character/character_edits/)
-Quest ID's can be found here: [docs.justemutarkov.eu/ressources/quests/](https://docs.justemutarkov.eu/ressources/quests/)
+Quest ID's can be found here: [docs.justemutarkov.eu/resources/quests/](https://docs.justemutarkov.eu/resources/quests/)
 In your Character.json, you will find several mentions of “QID”. This stands for ‘Quest ID’. Example:
 ```
 {
@@ -102,7 +102,7 @@ Each hideout item will look like this
 	"lastRecipe": ""
 },
 ```
-here is a list of what each type is and there [docs.justemutarkov.eu/ressources/hideout_areas/](https://docs.justemutarkov.eu/ressources/hideout_areas/)  
+here is a list of what each type is and there [docs.justemutarkov.eu/resources/hideout_areas/](https://docs.justemutarkov.eu/resources/hideout_areas/)  
 
 ## When I start the server, it crashes immediately!
 First try deleting your cache, if that doesn't work then the server files are most likely corrupted, in that case copy your accounts.json and your character folders to a save place and re extract the server overriding everything in it, or simply delete server and reextract it in same place then reapply your accounts.json file and character profiles to not lose progression.
