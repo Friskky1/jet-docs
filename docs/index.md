@@ -24,7 +24,7 @@ Partnered communities:
 - [ConfigFreaks Discord](https://discord.gg/CeBQqzB)
 - [Kovacs' Altered Escape Discord](https://discord.gg/tagQAqw3HB)
 
-## Other usefull links:
+## Other Links
 
 - [Multi Version & Language Item Search Engine](https://eft.justemutarkov.eu/)
 - [Self-Hosted Git](https://git.justemutarkov.eu/) _(if you want access, open a ticket on the [JustEmuTarkov Discord](https://discord.gg/T66tGKa))_
