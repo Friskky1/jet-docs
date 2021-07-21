@@ -20,7 +20,7 @@ tracerRed
 
 ## Item IDs
 
-To find specific item IDs, you can use either the [Tarkov Database](https://tarkov-database.com/) or [EFT Item Search Engine](https://eft.justemutarkov.eu/).
+To find specific item IDs, you can use either the [Tarkov Database](https://tarkov-database.com/) or [JET Panopticon Search Engine](https://eft.justemutarkov.eu/).
 
 ## Item Node IDs
 
