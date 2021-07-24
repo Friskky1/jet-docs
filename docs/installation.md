@@ -28,10 +28,11 @@ To download the JET server and JET binaries, the packs are hosted on [justemutar
 | 12.10.*        | No build                            |
 | 12.11.*        | 1.2.X *(not released)*              |
 
-As of February 2021 you will need to download links as:
+As of July 2021 you will need to download links as:
+
 - Client 0.12.9.10988
-- Patch for game client 10988 (current)
-- Server JET 1.1.0 (current)
+- Patch for game client 10988
+- Server JET 1.1.0
 
 **NOTE:** Make sure the binaries you download from the download center match the client version you download.
 
