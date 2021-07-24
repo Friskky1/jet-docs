@@ -80,7 +80,7 @@ To disable this, find a line in the globals called ‘SkillFatiguePerPoint’. B
 Experiment with these values as you wish, lowering `SkillFatiguePerPoint`, increasing `SkillMinEffectiveness` and `SkillPointsBeforeFatigue` will all contribute to preventing fatigue from setting in, as well as increasing the amount of skill points you receive.
 
 ## 16. How do I skip a quest?
-A tutorial can be found in the [character edits section.](../character/character_edits/)
+A video tutorial can be found in the [character edits section.](../character/character_edits/)
 
 In your `[server]/user/profiles/[AID]/character.json`, you will find several mentions of `“qid”`. This stands for quest ID. 
 
