@@ -27,7 +27,9 @@ Most of what you might want to modify has been well documented (with video examp
 You might be required to clear your cache and restart the server to recache the database. Additionally, remember to only edit files when the server is turned off, otherwise, changes will likely not be retained.
 
 ## 9. How do I install mods?
-You can usually install mods by extracting them into your `[server]/user/mods` folder. After extracting your corresponding mod into its folder, usually said folder should contain some form of readme, or a configuration file. You should be aware that mods not made for the version of JET you are using will most likely not function properly, if at all.
+You can usually install mods by extracting them into your `[server]/user/mods` folder. After extracting your corresponding mod into its folder, usually said folder should contain some form of README, or a configuration file. Check these out for extra information on how to use the mod you've downloaded.
+
+You should be aware that mods not made for the version of JET you are using will most likely not function properly, if at all.
 
 ## 10. I installed a mod and now my server stopped working!
 You likely installed a mod that is not compatible with your version of the server. 
@@ -35,7 +37,9 @@ You likely installed a mod that is not compatible with your version of the serve
 If you get an error similar to `no such file or directory '.../mod.config.json'`, view the below FAQ (#11).
 
 ## 11. I get a missing mod.config.json error when using a mod!
-The mod's folder name is malformed. A mod folder name must follow the convention of `AuthorName-ModName-X.X.X`, where `X.X.X` is the mod version. If you downloaded your mod from GitHub, odds are you downloaded the mod's source code instead of it's release package. Double check that your mod has a release on GitHub.
+The mod's folder name is malformed. A mod folder name must follow the convention of `AuthorName-ModName-X.X.X`, where `X.X.X` is the mod version. You may also have downloaded an SPT-AKI mod, which is not compatible with JET. SPT-AKI mods are found on mods.sp-tarkov.com. Mods from this website will not work with JET unless ported by a developer.
+
+If you downloaded your mod from GitHub, odds are you downloaded the mod's source code instead of it's release package. Double check that your mod has a release on GitHub.
 
 ![Release on GitHub](release.png)
 
