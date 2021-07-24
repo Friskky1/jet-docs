@@ -20,6 +20,8 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MJYykF2lm6k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+**NOTE:** Make sure you set the value of roubles to a number below a 32-bit signed integer's max value (2.147 billion). If you don't, anything involving money will fail to process in-game. We usually recommend 999 million.
+
 *Courtesy of Raven*
 
 ## Modify your trader standings
