@@ -44,7 +44,7 @@ This will not occur in future versions of JET (1.2.0 and newer).
 If you are looking to modify player data concerning traders (standings, level, etc.), you will find it in your `[server]/user/profiles/[AID]/character.json` file, under the `TraderStandings` section. If you are looking to edit the database for traders (assort, barter scheme, etc.), it will be in the `[server]/db/traders` directory. Note that any changes to the database require a recache.
 
 ## 13. Where can I change my character’s data?
-You can find most character stats and relaated in your profile, found under `[server]/user/profiles/[AID]/character.json`
+You can find most character stats and related in your profile, found under `[server]/user/profiles/[AID]/character.json`
 
 See the [character edits section.](../character/character_edits/)
 
