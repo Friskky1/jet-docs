@@ -2,6 +2,9 @@
 
 *This FAQ is pulled straight from the EmuTarkov Community Discord. It is recommended you join their Discord [here](https://discord.gg/NJANk5gCeN) for a more updated list.*
 
+## What is this?
+View [What is JustEmuTarkov?](https://docs.kiobu.dev/#what-is-justemutarkov).
+
 ## Will this get me banned from Tarkov?
 As long as you’ve installed this separately from the live version and aren’t running BSG products to the side, until reported otherwise, this program should not cause any complications with your live account of Tarkov.
 
@@ -132,4 +135,19 @@ Normally, the ID will be mentioned in the related error, however, it most likely
 In order to make sure all incorrect item IDs are eliminated, you will need to run the following patch using VSCode with node.js installed.
 [check if over 24 patch](https://discord.com/channels/739984913599692881/739984972873596938/824837425528176650) from discord [discord.gg/EmuTarkov](https://discord.gg/NJANk5gCeN))
 
+## What's the difference between JET (JustEmuTarkov) and the SPT-AKI project?
+Both projects accomplish the same task. They both emulate the EFT backend server to allow you to play a singleplayer-only version of Escape From Tarkov. Intricately, both emulators have significant differences in code, but they are mostly indistinguishable for the user, as both function the same way. However, this means SPT-AKI mods will not work on JET, and vice-versa. Additionally, AKI requires a legitimate EFT license, whereas currently, JET does no legitimacy checks on the client. Most people make their choice based upon their perception of the communities or mod availability.
 
+The major difference that separates SPT-AKI from JET is that JET has a small development team that is working to make a multiplayer-compatible JET server that allows you host a dedicated match server to play co-op with your friends. However, the development on this is very slow, considering the amount of reverse engineering required. Please don't ask us about the ETA for this, as it's a very ambitious project, and we work on it on our own time.
+
+JET support is offered on this Discord, the partnered ConfigFreaks Discord, and the official JET Discord, whereas SPT-AKI support is only available on the Guilded known as Senko's Pub. We do not offer any support to SPT-AKI users, since there are major differences in code we have no idea about, and because this is a JET community, not an SPT-AKI one.
+
+In case you're asking which one to choose, there's virtually no difference when it comes to performance, moddability, user friendliness, and quality of emulation. If you want the latest updates with possible bugs, SPT-AKI releases new updates quite frequently, and runs on a rolling release platform, where the latest game version is supported at the cost of potential instability. In contrast, JET works on a point-release system, where we release new updates relatively slowly to ensure as much stability possible. This means AKI may be a major version of EFT ahead, while JET would be on an older version.
+
+## Where should I go if I want SPT-AKI support?
+This is a JET Discord server. The official SPT-AKI developers are available on Guilded.gg on Senko's Pub. However, you can also receive AKI-related support on Discord at the EmuTarkov Related Community server [here](https://discord.gg/BpKdMkv).
+
+Please note that EmuRC is not the official SPT-AKI community. They are an affiliate community, and as such have inherently different communities, structure, rules, staff teams, etc. Please be aware of this when intermingling between these communities.
+
+## I have an issue/question about Altered Escape.
+Because Altered Escape is a third-party mod for JET, and uses an experimental, in-development server build, we do not offer Altered Escape-specific support. You are best off looking for AE support [here](https://discord.gg/tagQAqw3HB).
