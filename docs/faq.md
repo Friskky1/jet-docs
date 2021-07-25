@@ -37,7 +37,9 @@ You likely installed a mod that is not compatible with your version of the serve
 If you get an error similar to `no such file or directory '.../mod.config.json'`, view the below FAQ (#11).
 
 ## 11. I get a missing mod.config.json error when using a mod!
-The mod's folder name is malformed. A mod folder name must follow the convention of `AuthorName-ModName-X.X.X`, where `X.X.X` is the mod version. You may also have downloaded an SPT-AKI mod, which is not compatible with JET. SPT-AKI mods are found on mods.sp-tarkov.com. Mods from this website will not work with JET unless ported by a developer.
+The mod's folder name is malformed. A mod folder name must follow the convention of `AuthorName-ModName-X.X.X`, where `X.X.X` is the mod version. These values correspond to the ones you find in the mod's `mod.config.json` file. 
+
+You may also have downloaded an SPT-AKI mod, which is not compatible with JET. SPT-AKI mods are found on mods.sp-tarkov.com. Mods from this website will not work with JET unless ported by a developer.
 
 If you downloaded your mod from GitHub, odds are you downloaded the mod's source code instead of it's release package. Double check that your mod has a release on GitHub.
 
