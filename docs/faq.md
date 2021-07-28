@@ -167,7 +167,23 @@ Parameter name: length
 
 If you see this error, you have an item ID that is not 24 characters long. This prevents the game from parsing the item. To fix this, you will need to run [this patch](checkifover24.js) on your `character.json` file with Node.js. If you are unsure how to do this, join the [EmuTarkov Discord](https://discord.gg/NJANk5gCeN) and ask for assistance in the `#support` channel.
 
-## 22. What's the difference between JET (JustEmuTarkov) and the SPT-AKI project?
+## 22. I have an `Unexpected token` syntax error!
+Your error may look similar to the following:
+```
+SyntaxError: Unexpected token ! in JSON at position 1234.
+```
+
+This error occurs when you naïvely edit a `.json` file without validating the syntax. This means there is an illegal character somewhere that prevents the server from properly parsing and loading that file. To find it, you need to go back and check the files you edited with a JSON validation tool. [Visual Studio Code](https://code.visualstudio.com/) is a text editor with this function built in. To fix this error, you'll need to load whatever file(s) you edited and check them for syntax errors.
+
+Here's an example of a syntax error in a JSON file viewed on VSCode:
+
+![Syntax error](syntax_error.png)
+
+You can click the error in VSCode's *Problems* tab to jump directly to the syntax error in question, or you can scroll to the line manually. Syntax errors will be denoted with a red spellcheck underline. Fix the syntax error and recache to resolve your issue.
+
+A guide to JSON syntax can be found [here](https://www.w3schools.com/js/js_json_syntax.asp).
+
+## 23. What's the difference between JET (JustEmuTarkov) and the SPT-AKI project?
 Both projects accomplish the same task. They both emulate the EFT backend server to allow you to play a singleplayer-only version of Escape From Tarkov. Intricately, both emulators have significant differences in code, but they are mostly indistinguishable for the user, as both function the same way. However, this means SPT-AKI mods will not work on JET, and vice-versa. Additionally, AKI requires a legitimate EFT license, whereas currently, JET does no legitimacy checks on the client. Most people make their choice based upon their perception of the communities or mod availability.
 
 The major difference that separates SPT-AKI from JET is that JET has a small development team that is working to make a multiplayer-compatible JET server that allows you host a dedicated match server to play co-op with your friends. However, the development on this is very slow, considering the amount of reverse engineering required. Please don't ask us about the ETA for this, as it's a very ambitious project, and we work on it on our own time.
@@ -176,10 +192,10 @@ JET support is offered on this Discord, the partnered ConfigFreaks Discord, and 
 
 In case you're asking which one to choose, there's virtually no difference when it comes to performance, moddability, user friendliness, and quality of emulation. If you want the latest updates with possible bugs, SPT-AKI releases new updates quite frequently, and runs on a rolling release platform, where the latest game version is supported at the cost of potential instability. In contrast, JET works on a point-release system, where we release new updates relatively slowly to ensure as much stability possible. This means AKI may be a major version of EFT ahead, while JET would be on an older version.
 
-## 23. Where should I go if I want SPT-AKI support?
+## 24. Where should I go if I want SPT-AKI support?
 This is a JET Discord server. The official SPT-AKI developers are available on Guilded.gg on Senko's Pub. However, you can also receive AKI-related support on Discord at the EmuTarkov Related Community server [here](https://discord.gg/BpKdMkv).
 
 Please note that EmuRC is not the official SPT-AKI community. They are an affiliate community, and as such have inherently different communities, structure, rules, staff teams, etc. Please be aware of this when intermingling between these communities.
 
-## 24. I have an issue/question about Altered Escape.
+## 25. I have an issue/question about Altered Escape.
 Because Altered Escape is a third-party mod for JET, and uses an experimental, in-development server build, we do not offer Altered Escape-specific support. You are best off looking for AE support [here](https://discord.gg/tagQAqw3HB).
