@@ -4,9 +4,11 @@
 
 ## Installation Video
 
-Note that this video was made for an older version of JET, so you should substitute the outdated versions used in this video with the up-to-date versions found in this guide.
+Note that this video was made when install links were available in the EmuTarkov Discord. Now, they are all provided in this guide. You can substitute the links downloaded in the video with the ones below from the **Download Center**.
+
+<div style="width: 100%; height: 0px; position: relative; padding-bottom: 56.250%;"><iframe src="https://streamable.com/e/nndz0n" frameborder="0" width="720" height="480" allowfullscreen style="width: 100%; height: 100%; position: absolute;"></iframe></div>
   
-<video src="https://streamable.com/nndz0n" width="720" height="480" controls=""></video> 
+<!-- <video src="https://streamable.com/nndz0n" width="720" height="480" controls=""></video> -->
 <!-- old vid: ../video.mp4 -->
   
 [Video link if embed doesn't work.](https://streamable.com/nndz0n)  
