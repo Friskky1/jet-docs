@@ -41,9 +41,11 @@ The mod's folder name is malformed. A mod folder name must follow the convention
 
 You may also have downloaded an SPT-AKI mod, which is not compatible with JET. SPT-AKI mods are found on mods.sp-tarkov.com. Mods from this website will not work with JET unless ported by a developer.
 
-If you downloaded your mod from GitHub, odds are you downloaded the mod's source code instead of it's release package. Double check that your mod has a release on GitHub.
+If you downloaded your mod from GitHub or another Git website, odds are you downloaded the mod's source code instead of it's release package. Double check  and see if the source mod you downloaded has a release on Git. If the mod does not have a release package, assume that you should download the source instead.
 
 ![Release on GitHub](release.png)
+
+![Release on git.justemutarkov.eu](release2.png)
 
 This will not occur in future versions of JET (1.2.0 and newer).
 ## 12. Where do I change trader-related data?
