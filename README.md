@@ -1,3 +1,5 @@
+New docs @ https://gitlab.com/emutarkov/docs
+
 # jet-docs
 The Mkdocs app for JET.
 
