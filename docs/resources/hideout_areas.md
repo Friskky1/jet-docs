@@ -14,7 +14,7 @@
 9| Rest Space| 3
 10| Workbench| 3
 11| Intelligence Center| 3
-12| Shooting Range| 1
+12| Shooting Range| 2
 13| Library| 1
 14| Scav Case| 1
 15| Illumination| 3
